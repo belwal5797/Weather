@@ -1,1 +1,2 @@
-# Weather
+GET YOUR CITY TEMPERATURE...
+API USED 
