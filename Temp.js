@@ -27,7 +27,7 @@ const Temp=()=>{
 
    <>
     <h1 id='t'>GET YOUR CITY TEMPERATURE:</h1>
-     <input type='search' onChange={(event)=>{
+     <input type='search' value={search} onChange={(event)=>{
                  setSearch(event.target.value);
      }
      }/>
@@ -35,11 +35,14 @@ const Temp=()=>{
      <br/><br/>
 
 
-         <div id='d'>
+         {!city ? (
+       <p id='p'>No Data Found !!!</p>
+     ):(<div id='d'>
          <h1 id='s'>{search}</h1><br/><br/>
-         <h1 id='gt'>{city.temp}</h1>
-         </div>
-     
+         <h1 id='gt'>{city.temp} Cel</h1>
+         </div>)
+
+}
      
 
    </>
