@@ -15,7 +15,7 @@ input{
 #d{
     width: 300px;
     height: 200px;
-    border: 1px solid red;
+    border: 1px solid black;
     margin-top: 10%;
     margin-left: 37%;
 }
@@ -24,10 +24,21 @@ input{
 
 #s{
     text-align: center;
-    color:yellowgreen;
+    color:blue;
 }
 
 #gt{
     text-align: center;
-    color:orangered;
+    color:green;
 }
+ #p{
+    width: 300px;
+    height: 200px;
+    border: 1px solid black;
+    margin-top: 10%;
+    margin-left: 37%;
+    text-align: center;
+    color:red;
+    margin-left: 40%;
+    font-size: larger;
+ }
